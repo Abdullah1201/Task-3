@@ -1,0 +1,79 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+  }
+  body{
+    background: url(img/mountain.jpg);
+    background-size: cover;
+  }
+  .loginBox{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    width: 350px;
+    height: 420px;
+    box-sizing: border-box;
+    padding: 50px 40px;
+  }
+  .loginBox h2{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    color: rgb(76, 16, 187);
+  }
+  .inputBox{
+   
+    margin-bottom: 20px;
+  }
+
+.inputBox input{
+    width: 100%;
+    border: 2px solid #607d8b;
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #607d8b;
+    background: transparent;
+
+}
+.inputBox input[type = "submit"]{
+    background: rgb(9, 235, 223);
+    color: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 500;
+}
+.agreeBox{
+    margin-bottom: 20px;
+    color:#607d8b ;
+    font-weight: 400;
+    font-size: 14px;
+}
+.inputBox:nth-child(5){
+ 
+    border-top: 2px solid #7d888f;
+}
+.inputBox p{
+    /* display: inline-block; */
+    margin-top: 40px;
+    color: #607d8b;
+    font-weight: 700;
+}
+.inputBox p a{
+    color: aqua;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
